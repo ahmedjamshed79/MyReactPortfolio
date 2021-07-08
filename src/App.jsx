@@ -1,9 +1,27 @@
+import './App.scss';
+
 import NavBar from "./components/navbar/NavBar";
+import Intro from "./components/intro/Intro";
+import Portfolio from "./components/portfolio/Portfolio";
+import Testimonials from "./components/testimonials/Testimonials";
+import Work from "./components/work/Work";
+import Contact from "./components/contact/Contact";
+import Menu from './components/menu/Menu';
+import { useState } from 'react';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-      <NavBar />
+      <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Menu>
+      <div className="sections">
+        <Intro></Intro>
+        <Portfolio></Portfolio>
+        <Work></Work>
+        <Testimonials></Testimonials>
+        <Contact></Contact>
+      </div>
     </div>
   );
 }
