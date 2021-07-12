@@ -1,14 +1,18 @@
-$mainColor:#ffff;
+$mainColor: #ffff;
+
+$onMain: #121212;
 
 $navBarColor: #ffff;
 
-$navBarTextColor: rgb(27, 25, 25);
+$navBarTextColor: #121212;
 
-$menuColor: rgb(27, 25, 25);
+$menuColor: #121212;
 
 $menuTextColor: #ffff;
 
+
 $width: 768px;
+
 
 @mixin mobile {
     @media (max-width: #{$width}){
