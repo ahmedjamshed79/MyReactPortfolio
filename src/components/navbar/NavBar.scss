@@ -2,14 +2,14 @@
 
 .navbar{
     width: 100vw;
-    height: 70px;
+    height: 7rem;
     background-color: $navBarColor;
     position: fixed;
     z-index: 3;
     color: $navBarTextColor;
 
     .wrapper{
-        padding: 10px 30px;
+        padding: 1rem 3rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -19,18 +19,17 @@
             align-items: center;
 
             .logo{
-                font-size: 40px;
+                font-size: $h2_40;
                 font-weight: 700;
                 text-decoration: none;
                 color: $navBarTextColor;
-                margin-right: 50px;
             }
       }
 
         .right {
             .hamburger {
-              width: 32px;
-              height: 25px;
+              width: 3.2rem;
+              height: 2.5rem;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -38,7 +37,7 @@
 
                 span {
                     width: 100%;
-                    height: 3px;
+                    height: 0.3rem;
                     background-color: $navBarTextColor;
                     transform-origin: left;
                     transition:  0.5s ease;

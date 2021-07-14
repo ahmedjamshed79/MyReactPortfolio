@@ -1,18 +1,32 @@
+// Main theme
 $mainColor: #ffff;
 
 $onMain: #121212;
 
+//Nav bar
 $navBarColor: #ffff;
 
 $navBarTextColor: #121212;
 
+//Hamburger menu
 $menuColor: #121212;
 
 $menuTextColor: #ffff;
 
+ 
 
+//Font-sizes
+$h1_60: 6rem;
+$h2_40: 4rem;
+$h3_30: 3rem;
+$h4_20: 2rem;
+$subtitle_16: 1.6rem;
+$body_16: 1.6rem;
+$button_14: 1.4rem;
+
+
+// Size to apply media query
 $width: 768px;
-
 
 @mixin mobile {
     @media (max-width: #{$width}){
