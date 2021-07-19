@@ -7,6 +7,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Menu from './components/menu/Menu';
+import Skills from './components/skills/Skills';
 import { useState } from 'react';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <div className="sections">
         <Intro></Intro>
         <About></About>
+        <Skills></Skills>
         <Portfolio></Portfolio>
         <Work></Work>
         <Contact></Contact>

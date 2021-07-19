@@ -1,0 +1,22 @@
+@import "../../global.scss";
+
+.skills{
+    background-color: $mainColor;
+    color: $onMain;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-size: $h1_60;
+        text-align: center;
+        margin: 0;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

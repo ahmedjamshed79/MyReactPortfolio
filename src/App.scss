@@ -4,7 +4,6 @@
     .sections{
         width: 100%;
         height: calc(100vh - 70px); //-70 px which wiil be taken by the navbar
-        background-color: darkorange;
         position: relative;
         top: 70px;
         scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
