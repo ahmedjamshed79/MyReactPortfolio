@@ -3,13 +3,12 @@
 .skills-card{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(220, 20, 60, 0.596);
+    border: 2px solid grey;
     border-radius: 50px;
     height: 80%;
     align-items: center;
     justify-content: space-evenly;
     padding: 3rem;
-    box-shadow: -6px -6px 16px #ffff, 4px 4px 16px hsla(348, 30%, 86%, 1);
 
     img{
         width: 10rem;
