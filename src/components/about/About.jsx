@@ -4,7 +4,7 @@ import "./About.scss";
 function About() {
     return (
         <div className="about" id="about">
-            <h1>About</h1>
+            <h2>About</h2>
             <div className="container">
                 <div className="left">
                     <p>

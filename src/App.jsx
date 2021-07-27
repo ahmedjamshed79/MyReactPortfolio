@@ -4,10 +4,9 @@ import NavBar from "./components/navbar/NavBar";
 import Intro from "./components/intro/Intro";
 import About from './components/about/About';
 import Portfolio from "./components/portfolio/Portfolio";
-import Work from "./components/work/Work";
+import Skills from './components/skills/Skills';
 import Contact from "./components/contact/Contact";
 import Menu from './components/menu/Menu';
-import Skills from './components/skills/Skills';
 import { useState } from 'react';
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <About></About>
         <Skills></Skills>
         <Portfolio></Portfolio>
-        <Work></Work>
         <Contact></Contact>
       </div>
     </div>
