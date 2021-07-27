@@ -10,7 +10,7 @@ function SkillsCard(props) {
             <p> {props.det} </p>
             <h5>{props.subtitle2} </h5>
             {props.list.map((l)=>(
-                <li>{l}</li>
+                <li key={Math.random()}>{l}</li>
             ))}
         </div>
     )

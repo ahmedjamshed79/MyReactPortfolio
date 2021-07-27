@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.swiper-container{
+    width: 600px;
+    height: 337.50px;
+
+    .swiper-pagination{
+        color: #ffff;
+    }
+
+    img{
+        width: 600px;
+        height: 337.50px;
+    }
+}

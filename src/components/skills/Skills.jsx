@@ -5,6 +5,7 @@ import SkillsCard from "../skillsCard/SkillsCard";
 function Skills() {
     const data = [
         {
+            id: "design",
             img: "./Assets/designLogo.svg",
             title: "Design",
             des: "I’m exploring my creative side by designing beautiful and modern looking websites",
@@ -14,6 +15,7 @@ function Skills() {
             list: ["Figma", "Webflow","Canva", "Pen and Paper", " "," "]
         },
         {
+            id: "dev",
             img: "./Assets/devLogo.svg",
             title: "Front-End",
             des: "Coding is my passion. I love to spend my energy and brain power into building web site",
@@ -23,6 +25,7 @@ function Skills() {
             list: ["Macbook Pro", "VS Code", "Github", "Npm", "Kanban Boards", " "]
         },
         {
+            id: "personal",
             img: "./Assets/productivityLogo.svg",
             title: "Personal",
             des: "I am a productivity nerd and always strive to make myself better",
@@ -47,6 +50,7 @@ function Skills() {
                         det={d.det}
                         subtitle2={d.subtitle2}
                         list={d.list}
+                        key={d.id}
                     />
                 ))}
             </div>

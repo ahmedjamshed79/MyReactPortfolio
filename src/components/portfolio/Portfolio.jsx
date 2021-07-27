@@ -10,7 +10,7 @@ function Portfolio() {
             <h2>Portfolio</h2>
             <div className="container">
                 {featuredPortfolio.map((item) => (
-                    <div className="item">
+                    <div className="item" key={item.id}>
                         <figure onClick={()=> setIsOpen(true)}>
                             <img
                                 src={item.img}
