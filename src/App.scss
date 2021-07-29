@@ -2,10 +2,11 @@
     height: 100vh;
 
     .sections{
-        width: 100%;
+        width: 100vw;
         height: calc(100vh - 70px); //-70 px which wiil be taken by the navbar
         position: relative;
         top: 70px;
+        overflow-y: scroll;
         overflow-x: hidden;
         scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
         scroll-snap-type: y mandatory;

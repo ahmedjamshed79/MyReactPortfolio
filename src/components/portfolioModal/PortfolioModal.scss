@@ -43,8 +43,9 @@
             box-sizing: border-box;
             border-bottom: 0.5px solid rgba(133, 130, 130, 0.712);
 
-            h3{
-                font-size: $h3_30;
+            label{
+                font-size: $h4_20;
+                font-weight: 600;
             }
 
             .close_icon{
