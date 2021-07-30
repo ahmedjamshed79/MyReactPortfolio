@@ -1,46 +1,61 @@
 @import "../../global.scss";
 
-.about{
-    background-color: $mainColor;
-    color: $onMain;
+.about {
+  background-color: $mainColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: $h2_40;
+    margin: 30px;
+
+    @include mobile {
+        font-size: $h3_30;
+        margin: 20px;
+    }
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    h2{
-        font-size: $h2_40;
-        margin: 0;
+    @include mobile {
+      flex-direction: column;
     }
 
-    .container{
-        width: 100%;
-        height: 100%;
-        display: flex;
+    .left {
+      flex: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-        .left{
-            flex: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+      p {
+        font-size: $h4_20;
+        line-height: 3rem;
+        max-width: 90%;
+        text-align: center;
+        text-size-adjust: 100%;
+        vertical-align: baseline;
 
-            p{
-                font-size: $h4_20;
-                line-height: 3rem;
-                max-width: 55ch;
-                text-align: justify;
-            }
+        @include mobile {
+          font-size: $body_16;
+          line-height: 2.5rem;
+          max-width: 75%;
         }
-
-        .right{
-            flex: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            img{
-                width: 95%;
-            }
-
-        }
+      }
     }
+
+    .right {
+      flex: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 95%;
+      }
+    }
+  }
 }

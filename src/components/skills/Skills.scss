@@ -1,15 +1,20 @@
 @import "../../global.scss";
 
 .skills{
-    background-color: $mainColor;
-    color: $onMain;
+    background-image: $gradient_background;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     h2{
         font-size: $h2_40;
-        margin: 0;
+        margin: 30px;
+        color: $secondary;
+        
+        @include mobile {
+            font-size: $h3_30;
+        }
+        
     }
 
     .container{
@@ -17,6 +22,10 @@
         height: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 }

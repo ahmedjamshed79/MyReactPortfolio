@@ -3,9 +3,9 @@
 .navbar {
   width: 100vw;
   height: 70px;
-  background-color: rgb(34, 55, 134);
+  background-color: rgba(57, 45, 113,0.9);
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   padding: 1rem 4rem;
   display: flex;
   align-items: center;
@@ -20,6 +20,10 @@
       font-weight: 500;
       text-decoration: none;
       color: $secondary;
+
+      @include mobile {
+        font-size: $h3_30;
+      }
     }
   }
 
@@ -29,6 +33,10 @@
     align-items: center;
     justify-content: space-between;
 
+    @include mobile {
+      display: none;
+    }
+
     a{
       text-decoration: none;
       font-size: $subtitle_16;
@@ -37,11 +45,22 @@
       &:last-child{
         color: $primary;
         font-weight: 600;
+        text-decoration: underline;
+      }
+
+      &:hover{
+        font-weight: 500;
       }
     }
   }
 
   .right {
+    display: none;
+
+    @include mobile {
+      display: block;
+    }
+
     .hamburger {
       width: 3.2rem;
       height: 2.5rem;

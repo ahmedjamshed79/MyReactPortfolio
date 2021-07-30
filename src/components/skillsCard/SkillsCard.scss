@@ -2,13 +2,36 @@
 
 .skills-card{
     display: flex;
+    background-color: $primary;
     flex-direction: column;
-    border: 2px solid grey;
-    border-radius: 50px;
-    height: 80%;
+    border: 2px solid $secondary;
+    border-radius: 25px;
+    height: 90%;
     align-items: center;
     justify-content: space-evenly;
-    padding: 3rem;
+    padding: 2rem;
+
+    @include mobile {
+       margin-bottom: 20px;
+    }
+
+    &:nth-child(2){
+        margin-left: 20px;
+        margin-right: 20px;
+        transform: translateY(-30px);
+        @include mobile {
+            transform: translate(0px,0px);
+        }
+    
+    }
+
+    &:nth-child(1){
+        transform: translateY(-60px);
+        @include mobile {
+            transform: translate(0px,0px);
+        }
+    
+    }
 
     img{
         width: 10rem;
