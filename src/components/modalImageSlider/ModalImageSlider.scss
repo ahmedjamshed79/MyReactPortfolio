@@ -4,12 +4,17 @@
     width: 600px;
     height: 337.50px;
 
-    .swiper-pagination{
-        color: #ffff;
+    @include mobile{
+        width: 350px;
+        height: 196.88px;
     }
 
     img{
         width: 600px;
         height: 337.50px;
+        @include mobile{
+            width: 350px;
+            height: 196.88px;
+        }
     }
 }

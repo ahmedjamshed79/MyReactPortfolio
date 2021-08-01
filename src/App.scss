@@ -1,15 +1,13 @@
 @import "./global.scss";
 
 .app{
-    height: 100vh;
-
     .sections{
         width: 100vw;
-        height: calc(100vh - 70px); //-70 px which wiil be taken by the navbar
+        height: 100vh; //-70 px which wiil be taken by the navbar
         position: relative;
-        top: 70px;
         overflow-x: hidden;
         scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
+        -webkit-scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox
         // hide the scroll bar for all browsers
@@ -24,7 +22,7 @@
 
         > *{
             width: 100vw;
-            height: calc(100vh - 70px);
+            height: 100vh;
             scroll-snap-align: start;
 
             @include mobile {

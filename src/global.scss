@@ -6,6 +6,7 @@ $secondary: rgb(190,161,135);
 $black: #121212;
 
 $gradient_background: linear-gradient(45deg, rgb(57, 45, 113), rgb(34, 55, 134));
+$gradient_background2: linear-gradient(-45deg, rgb(57, 45, 113), rgb(34, 55, 134));
 
 $mainColor: #ffff;
 
@@ -36,7 +37,7 @@ $button_14: 1.4rem;
 
 
 // Size to apply media query
-$width: 768px;
+$width: 820px;
 
 @mixin mobile {
     @media (max-width: #{$width}){

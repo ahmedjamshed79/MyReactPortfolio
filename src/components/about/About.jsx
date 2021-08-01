@@ -6,7 +6,10 @@ function About() {
     <div className="about" id="about">
       <h2>About</h2>
       <div className="container">
-        <div className="left">
+      <div className="img-container">
+        <img src="Assets/about.svg" alt="aboutImage" />
+      </div>
+      <div className="p-container">
           <p>
             I'm a graduate of Information Technology. Graduated from Griffith
             University in 2020. Experienced in developing well-structured
@@ -16,10 +19,7 @@ function About() {
             analysis, utilising version control system and continuous testing to
             deploy stable resposive websites.
           </p>
-        </div>
-        <div className="right">
-          <img src="Assets/about.svg" alt="" />
-        </div>
+      </div>
       </div>
     </div>
   );

@@ -17,13 +17,13 @@ function PortfolioModal(props) {
         <div className="imgContainer">
           <ModalImageSlider images={props.data.images}></ModalImageSlider>
         </div>
-        <ul>
-          <li>{props.data.description}</li>
-          <li>Something</li>
-          <li>Something</li>
-          <li>Something</li>
-          <li>Something</li>
-        </ul>
+        <div className="description-container">
+          <h5>Project Description:</h5>
+          <p>{props.data.description}</p>
+          <a href={props.data.projectLink} target="_blank" rel="noreferrer">
+            {props.data.projectLink}
+          </a>
+        </div>
       </div>
     </div>,
     document.getElementById("modal")
