@@ -28,7 +28,10 @@
             @include mobile {
                 scroll-snap-align: none;
                 &:nth-child(3){
-                    height: 250vh;
+                    height: 300vh;
+                }
+                &:nth-child(2){
+                    height: 120vh;
                 }
             }
     

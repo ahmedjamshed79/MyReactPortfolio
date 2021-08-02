@@ -3,7 +3,7 @@ import "./SkillsCard.scss";
 function SkillsCard(props) {
     return (
         <div className="skills-card">
-            <img src={props.img} alt="" />
+            <img src={props.img} alt={props.img} />
             <h3> {props.title} </h3>
             <p> {props.des} </p>
             <h5>{props.subtitle1}</h5>

@@ -15,7 +15,7 @@ export const flickerPhotoGallery = {
   id: "flickerPhotoGallery",
   title: "Flicker Photo Gallery",
   description:
-    "This is a gallery app that shows interesting photos retrieve  from flicker using it’s API. However that’s not all it does, it uses facebook’s API to let users sign in using their fb account. The app then shows retrived information about the pages user's are following on facebook and shows interesting photos based on that.",
+    "This is a fun gallery app I worked on for a uni project. It shows interesting photos retrieved from flicker using it’s API. However that’s not all it does, it uses facebook’s API to let users sign in with their account. The app then retrives information about the pages they are following on facebook and shows interesting photos based on that.",
 
   projectLink: "https://github.com/ahmedjamshed79/flicker-Photo-Gallery",
   images: [

@@ -16,7 +16,7 @@ function ModalImageSlider(props) {
   for (let i = 0; i < props.images.length; i++) {
     slides.push(
       <SwiperSlide key={props.images[i]}>
-        <img src={props.images[i]} alt="" />
+        <img src={props.images[i]} alt={props.images[i]} />
       </SwiperSlide>
     );
   }

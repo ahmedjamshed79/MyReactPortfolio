@@ -31,6 +31,7 @@
       padding: 10px;
       @include mobile{
         padding: 0;
+        flex: 40%;
       }
 
       img {
@@ -46,6 +47,9 @@
       align-items: flex-start;
       justify-content: center;
       background-image: $gradient_background2;
+      @include mobile{
+        flex: 60%;
+      }
 
       p {
         font-size: $h4_20;
@@ -64,7 +68,7 @@
         @include mobile{
           font-size: 1.4rem;
           line-height: 2rem;
-          max-width: 35ch;
+          max-width: 40ch;
           transform: translateY(-20%);
           padding: 3rem;
         }

@@ -9,7 +9,7 @@ function NavBar({ menuOpen, setMenuOpen }) {
         </a>
       </div>
 
-      <div className="center">
+      <div className="links">
           <a href="#intro">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
