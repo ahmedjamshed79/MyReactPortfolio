@@ -23,7 +23,7 @@
 
   .container {
     width: 650px;
-    height: 90%;
+    height: 95%;
     background-color: #ffff;
     border-radius: 5px;
     display: flex;
@@ -35,6 +35,7 @@
     -moz-animation: modalScale 0.35s linear;
     @include mobile {
       width: 350px;
+      overflow-x: scroll;
     }
 
     .header {

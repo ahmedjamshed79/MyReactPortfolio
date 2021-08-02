@@ -4,7 +4,7 @@ function NavBar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"navbar " + (menuOpen && "active")}>
       <div className="left">
-        <a href="#intro" className="logo">
+        <a href="/" className="logo">
           Ahmed.
         </a>
       </div>

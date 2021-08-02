@@ -28,7 +28,10 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      padding: 30px;
+      padding: 10px;
+      @include mobile{
+        padding: 0;
+      }
 
       img {
         width: 15%;
