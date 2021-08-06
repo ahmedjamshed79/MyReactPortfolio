@@ -6,10 +6,7 @@ function About() {
     <div className="about" id="about">
       <h2>About</h2>
       <div className="container">
-        <div className="img-container">
           <img src="Assets/about.svg" alt="aboutImage" />
-        </div>
-        <div className="p-container">
           <p>
             Since I started my student journey in Griffith University here in
             Australia, I have devloped life long skills that help me be more
@@ -22,7 +19,6 @@ function About() {
             analysis, continuous testing and utilising version control system to
             deploy stable resposive websites.
           </p>
-        </div>
       </div>
     </div>
   );
