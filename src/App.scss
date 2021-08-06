@@ -2,39 +2,14 @@
 
 .app{
     .sections{
-        width: 100vw;
-        height: 100vh; //-70 px which wiil be taken by the navbar
-        position: relative;
-        overflow-x: hidden;
+        width: 100%;
+        height: 1005px;
         scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
         -webkit-scroll-behavior: smooth; //scrolls it smoothly and clicking a link will go to that page smoothly
-        scroll-snap-type: y mandatory;
-        scrollbar-width: none; //for firefox
-        // hide the scroll bar for all browsers
-        &::-webkit-scrollbar{
-            display: none;
-        }
 
-        @include mobile {
-            scroll-snap-type: none;
-        }
-
-
-        > *{
+        .intro{
             width: 100vw;
             height: 100vh;
-            scroll-snap-align: start;
-
-            @include mobile {
-                scroll-snap-align: none;
-                &:nth-child(3){
-                    height: 300vh;
-                }
-                &:nth-child(2){
-                    height: 120vh;
-                }
-            }
-    
         }
     }
 }

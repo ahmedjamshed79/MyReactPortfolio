@@ -75,35 +75,36 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       margin-top: 20px;
 
       input {
-        width: 30%;
-        height: 10%;
+        width: 400px;
+        height: 50px;
         font-size: 1.4rem;
         border-radius: 20px;
         padding: 1.5rem;
         border: none;
 
         @include mobile {
-          width: 90%;
+          width: 300px;
           height: 40px;
         }
       }
 
       textarea {
-        width: 30%;
-        height: 60%;
+        width: 400px;
+        height: 300px;
         font-size: 1.4rem;
         border-radius: 25px;
         padding: 1.5rem;
         resize: horizontal;
         border: none;
+        margin-block: 20px;
 
         @include mobile {
-          width: 90%;
-          height: 60%;
+          width: 300px;
+          height: 200px;
           resize: none;
         }
       }
@@ -131,7 +132,7 @@
     &.invalid {
       form {
         input,textarea {
-          // border: 1px solid red;
+          border: 0.5px solid red;
           background-color: #ffd7d7;
         }
       }
@@ -139,7 +140,7 @@
   }
   footer {
     width: 100%;
-    height: 20%;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;

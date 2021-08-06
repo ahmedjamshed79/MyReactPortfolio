@@ -16,7 +16,7 @@ function App() {
       <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Menu>
       <div className="sections">
-        <Intro></Intro>
+        <Intro className="intro"></Intro>
         <About></About>
         <Skills id="skills-container"></Skills>
         <Portfolio></Portfolio>
