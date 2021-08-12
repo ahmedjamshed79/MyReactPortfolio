@@ -39,7 +39,6 @@
       margin-block: 10vh;
       text-align: center;
       text-size-adjust: 100%;
-      vertical-align: baseline;
       background-color: $primary;
       padding: 4rem;
       border-radius: 20px;
@@ -47,9 +46,9 @@
         drop-shadow(0px 10px 10px rgba(255, 253, 253, 0.25));
 
       @include mobile {
-        line-height: 2rem;
-        max-width: 80%;
-        padding: 3rem;
+        line-height: 2.5rem;
+        max-width: 90%;
+        padding: 4rem 3rem
       }
     }
   }

@@ -10,7 +10,7 @@ function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Freelancer", "Web App Developer", "Front-End Engineer"],
+      strings: ["Freelancer", "Front-End Engineer", "Web Designer"],
     });
   }, []);
 

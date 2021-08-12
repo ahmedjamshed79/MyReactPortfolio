@@ -157,6 +157,9 @@
         border: 1px solid #ffff;
         border-radius: 50%;
         transition: all 0.2s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         &:hover {
           background-color: #ffff;

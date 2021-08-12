@@ -91,7 +91,7 @@ export default function Contact() {
             <MailIcon className="icons" />
           </a>
         </div>
-        <h6>Designed and Developed by me :)</h6>
+        <h6>This website was designed and developed by me :)</h6>
       </footer>
     </div>
   );
