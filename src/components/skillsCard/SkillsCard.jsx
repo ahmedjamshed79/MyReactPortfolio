@@ -2,7 +2,7 @@ import "./SkillsCard.scss";
 
 function SkillsCard(props) {
     return (
-        <div className="skills-card">
+        <div className="skills-card" data-aos="fade-up">
             <img src={props.img} alt={props.img} />
             <h3> {props.title} </h3>
             <p> {props.des} </p>

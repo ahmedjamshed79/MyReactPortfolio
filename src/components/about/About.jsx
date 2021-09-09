@@ -7,7 +7,7 @@ function About() {
       <h2>About</h2>
       <div className="container">
           <img src="Assets/about.svg" alt="aboutImage" />
-          <p>
+          <p data-aos="fade-up">
             Since I started my student journey in Griffith University here in
             Australia, I have devloped life long skills that help me be more
             productive and work towards my goals and passion. After graduation

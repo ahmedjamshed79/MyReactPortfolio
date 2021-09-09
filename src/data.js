@@ -9,6 +9,11 @@ export const featuredPortfolio = [
     title: "Shark Smart VR",
     img: "./Assets/sharkSmartVR.png",
   },
+  {
+    id: "3",
+    title: "Expense Tracker",
+    img: "./Assets/expenseTracker1.png",
+  },
 ];
 
 export const flickerPhotoGallery = {
@@ -36,5 +41,18 @@ export const sharkSmartVR = {
     "./Assets/sharkSmartVR.png",
     "./Assets/sharkSmartVR3.png",
     "./Assets/sharkSmartVR2.png",
+  ],
+};
+
+export const expenseTracker = {
+  id: "expenseTracker",
+  title: "Expense Tracker",
+  description:
+    "This is a simple expense tracker app I build just for fun.",
+  projectLink: "NA",
+  images: [
+    "./Assets/expenseTracker1.png",
+    "./Assets/expenseTracker2.png",
+    "./Assets/expenseTracker3.png",
   ],
 };

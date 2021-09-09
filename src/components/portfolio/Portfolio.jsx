@@ -3,6 +3,7 @@ import {
   featuredPortfolio,
   flickerPhotoGallery,
   sharkSmartVR,
+  expenseTracker,
 } from "../../data";
 import PortfolioModal from "../portfolioModal/PortfolioModal";
 import { useState } from "react";
@@ -29,6 +30,12 @@ function Portfolio() {
         setData(sharkSmartVR);
         setIsOpen(true);
         break;
+
+      case "3":
+        setData(expenseTracker);
+        setIsOpen(true);
+        break;
+
       default:
         break;
     }

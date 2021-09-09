@@ -56,7 +56,6 @@ function Skills() {
             subtitle2={d.subtitle2}
             list={d.list}
             key={d.id}
-            data-aos="fade-up"
           />
         ))}
       </div>

@@ -8,8 +8,11 @@ import Skills from "./components/skills/Skills";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import { useState} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init({duration: 1000});
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
