@@ -39,12 +39,32 @@
       margin-block: 10vh;
       text-align: center;
       text-size-adjust: 100%;
-      
+
       @include mobile {
         line-height: 2.5rem;
         max-width: 90%;
         padding: 4rem 3rem;
       }
+    }
+  }
+  .custom-shape-divider-bottom-1636033096 {
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    width: 100%;
+    background-color: #392D71;
+    overflow: hidden;
+    line-height: 0;
+    // transform: translate(0, 50px);
+    
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 40px;
+    }
+    .shape-fill {
+      fill: #ffffff;
     }
   }
 }
