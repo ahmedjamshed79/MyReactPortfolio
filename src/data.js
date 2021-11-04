@@ -49,7 +49,7 @@ export const expenseTracker = {
   title: "Expense Tracker",
   description:
     "This is a simple expense tracker app I build just for fun.",
-  projectLink: "NA",
+  projectLink: "",
   images: [
     "./Assets/expenseTracker1.png",
     "./Assets/expenseTracker2.png",
