@@ -10,6 +10,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: translateY(-1px);
     svg {
       display: block;
       width: calc(100% + 1.3px);
