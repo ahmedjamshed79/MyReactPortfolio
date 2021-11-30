@@ -4,6 +4,7 @@ import {
   flickerPhotoGallery,
   sharkSmartVR,
   expenseTracker,
+  foodOrder,
 } from "../../data";
 import PortfolioModal from "../portfolioModal/PortfolioModal";
 import { useState } from "react";
@@ -33,6 +34,11 @@ function Portfolio() {
 
       case "3":
         setData(expenseTracker);
+        setIsOpen(true);
+        break;
+
+      case "4":
+        setData(foodOrder);
         setIsOpen(true);
         break;
 

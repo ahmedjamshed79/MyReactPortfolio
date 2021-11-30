@@ -27,7 +27,7 @@ function Skills() {
       id: "personal",
       img: "./Assets/productivityLogo.svg",
       title: "Personal",
-      des: "I believe in seld improvement and life-long learning and always strive to make myself better",
+      des: "I believe in self-improvement and life-long learning and always strive to make myself better",
       subtitle1: "Some life SKills",
       det: "Time management, focused productivity, Communication, and Getting Things Done",
       subtitle2: "Tools & Techniques I Use",
