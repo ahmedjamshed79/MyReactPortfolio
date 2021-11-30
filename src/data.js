@@ -14,6 +14,11 @@ export const featuredPortfolio = [
     title: "Expense Tracker",
     img: "./Assets/expenseTracker1.jpg",
   },
+  {
+    id: "4",
+    title: "Food Order App",
+    img: "./Assets/foodOrder1.jpg",
+  },
 ];
 
 export const flickerPhotoGallery = {
@@ -54,5 +59,21 @@ export const expenseTracker = {
     "./Assets/expenseTracker1.jpg",
     "./Assets/expenseTracker2.jpg",
     "./Assets/expenseTracker3.jpg",
+  ],
+};
+
+export const foodOrder = {
+  id: "foodOrder",
+  title: "Food Order App",
+  description:
+    "This food ordering app is build to enable fast food restaurants to give single page app like online ordering experience to it's customers. This app let's users select items from the menu, add items to cart, view cart and place an order.",
+  projectLink: "https://github.com/ahmedjamshed79/Food-order-app",
+  images: [
+    "./Assets/foodOrder1.jpg",
+    "./Assets/foodOrder2.jpg",
+    "./Assets/foodOrder3.jpg",
+    "./Assets/foodOrder4.jpg",
+    "./Assets/foodOrder5.jpg",
+    "./Assets/foodOrder6.jpg",
   ],
 };
