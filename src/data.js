@@ -54,7 +54,7 @@ export const expenseTracker = {
   title: "Expense Tracker",
   description:
     "This is a simple expense tracker app I build just for fun.",
-  projectLink: "",
+  projectLink: "https://expense-tracker-d2b03.web.app",
   images: [
     "./Assets/expenseTracker1.jpg",
     "./Assets/expenseTracker2.jpg",
@@ -67,7 +67,7 @@ export const foodOrder = {
   title: "Food Order App",
   description:
     "This food ordering app is build to enable fast food restaurants to give single page app like online ordering experience to it's customers. This app let's users select items from the menu, add items to cart, view cart and place an order.",
-  projectLink: "https://github.com/ahmedjamshed79/Food-order-app",
+  projectLink: "https://food-order-app-7500a.web.app",
   images: [
     "./Assets/foodOrder1.jpg",
     "./Assets/foodOrder2.jpg",
