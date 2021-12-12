@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Skills.scss";
 import SkillsCard from "../skillsCard/SkillsCard";
 
@@ -63,4 +65,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default React.memo(Skills);

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { useState } from "react";
 import "./Contact.scss";
 import emailjs from "emailjs-com";
@@ -5,7 +7,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
 
-export default function Contact() {
+function Contact() {
   const [message, setMessage] = useState(false);
   const [isValid, setIsValid] = useState(true);
 
@@ -119,3 +121,6 @@ export default function Contact() {
     </div>
   );
 }
+
+
+export default React.memo(Contact);

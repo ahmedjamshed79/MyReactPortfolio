@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
@@ -30,4 +32,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default React.memo(Intro);

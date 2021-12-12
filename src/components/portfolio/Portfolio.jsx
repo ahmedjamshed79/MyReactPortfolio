@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Portfolio.scss";
 import {
   featuredPortfolio,
@@ -70,4 +72,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default React.memo(Portfolio);
