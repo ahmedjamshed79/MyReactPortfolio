@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: space-between;
   backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(248, 250, 252, 0.06);
 
   .left {
     display: flex;
@@ -18,7 +19,9 @@
 
     .logo {
       font-size: $h2_40;
-      font-weight: 500;
+      font-family: 'Arizonia', cursive;
+      // font-weight: 500;
+      
       text-decoration: none;
       color: $secondary;
 

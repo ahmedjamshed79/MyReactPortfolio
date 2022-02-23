@@ -5,7 +5,7 @@ function NavBar({ menuOpen, setMenuOpen }) {
     <div className={"navbar " + (menuOpen && "active")}>
       <div className="left">
         <a href="/" className="logo">
-          Ahmed.
+          AF
         </a>
       </div>
 
