@@ -6,9 +6,9 @@ import "./About.scss";
 function About() {
   return (
     <div className="about" id="about">
-      <h2>About</h2>
+      {/* <h2>About</h2> */}
       <div className="container">
-        <img src="Assets/about.svg" alt="aboutImage" />
+        {/* <img src="Assets/about.svg" alt="aboutImage" /> */}
         <p data-aos="fade-up">
           Since I started my student journey in Griffith University here in
           Australia, I have devloped life long skills that help me be more

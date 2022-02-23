@@ -46,7 +46,7 @@ function Skills() {
 
   return (
     <div className="skills" id="skills">
-      <h2>Skills</h2>
+      <h2>My Skills</h2>
       <div className="container">
         {data.map((d) => (
           <SkillsCard
