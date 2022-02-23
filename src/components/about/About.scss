@@ -11,6 +11,7 @@
     margin-top: 70px;
     margin-bottom: 30px;
     font-weight: 400;
+    color: #1f2937;
 
     @include mobile {
       font-size: $h3_30;
@@ -39,6 +40,7 @@
       margin-block: 10vh;
       text-align: center;
       text-size-adjust: 100%;
+      color: $onMain;
 
       @include mobile {
         line-height: 2.5rem;

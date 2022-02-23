@@ -45,13 +45,13 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      color: $onMain;
       box-sizing: border-box;
       border-bottom: 0.5px solid rgba(133, 130, 130, 0.712);
 
       label {
         font-size: $h4_20;
         font-weight: 600;
+        color: $onMain;
 
         @include mobile {
           font-size: $subtitle_16;
