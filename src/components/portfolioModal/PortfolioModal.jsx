@@ -2,6 +2,7 @@ import "./PortfolioModal.scss";
 import CloseRoundedIcon from "@material-ui/icons/CloseRounded";
 import ReactDom from "react-dom";
 import ModalImageSlider from "../modalImageSlider/ModalImageSlider";
+import LaunchIcon from '@material-ui/icons/Launch';
 
 function PortfolioModal(props) {
   if (!props.open) return null;
@@ -21,7 +22,7 @@ function PortfolioModal(props) {
           <h5>Project Description:</h5>
           <p>{props.data.description}</p>
           <a href={props.data.projectLink} target="_blank" rel="noreferrer">
-            {props.data.projectLink}
+            <button className="button"> Visit Site &nbsp; <LaunchIcon/></button>
           </a>
         </div>
       </div>

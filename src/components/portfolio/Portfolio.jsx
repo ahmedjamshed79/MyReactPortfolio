@@ -50,7 +50,7 @@ function Portfolio() {
   };
   return (
     <div className="portfolio" id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>My Works</h2>
       <div className="container">
         {featuredPortfolio.map((item) => (
           <div className="item" key={item.id}>
@@ -58,6 +58,7 @@ function Portfolio() {
               <img src={item.img} alt="" />
               <div className="overlay">
                 <figcaption>{item.title}</figcaption>
+                <span className='learnMore'>Learn More</span>
               </div>
             </figure>
           </div>
