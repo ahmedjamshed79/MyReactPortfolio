@@ -1,13 +1,8 @@
 export const featuredPortfolio = [
   {
-    id: "1",
-    title: "Flicker Photo Gallery",
-    img: "./Assets/flickerPhotoGallery.jpg",
-  },
-  {
-    id: "2",
-    title: "Shark Smart VR",
-    img: "./Assets/sharkSmartVR.jpg",
+    id: "4",
+    title: "Food Order App",
+    img: "./Assets/foodOrder1.jpg",
   },
   {
     id: "3",
@@ -15,9 +10,14 @@ export const featuredPortfolio = [
     img: "./Assets/expenseTracker1.jpg",
   },
   {
-    id: "4",
-    title: "Food Order App",
-    img: "./Assets/foodOrder1.jpg",
+    id: "2",
+    title: "Shark Smart VR",
+    img: "./Assets/sharkSmartVR.jpg",
+  },
+  {
+    id: "1",
+    title: "Flicker Photo Gallery",
+    img: "./Assets/flickerPhotoGallery.jpg",
   },
 ];
 
