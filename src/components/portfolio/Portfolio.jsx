@@ -53,7 +53,7 @@ function Portfolio() {
       <h2>My Works</h2>
       <div className="container">
         {featuredPortfolio.map((item) => (
-          <div className="item" key={item.id}>
+          <div className="item" key={item.id} data-aos={item.id % 2 === 0 ? "fade-right" : "fade-left" } data-aos-anchor="#portfolio">
             <figure onClick={() => onClickItem(item.id)}>
               <img src={item.img} alt="" />
               <div className="overlay">
