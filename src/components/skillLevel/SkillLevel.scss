@@ -1,0 +1,61 @@
+@import "../../global.scss";
+
+.skillLevel {
+  width: 100%;
+  height: auto;
+  background-color: $mainColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin: 50px 0;
+
+    .bar {
+      width: 100%;
+      height: 35px;
+      background-color: #e5e7eb;
+      position: relative;
+      margin-bottom: 15px;
+
+      .bar-fill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 150px;
+        background-color: #0e7490;
+        display: flex;
+        transition: 1.1s 0.2s width ease-in-out;
+
+        .tag {
+          width: 150px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #0891b2;
+          color: $primary;
+          font-size: $button_14;
+          font-weight: 500;
+        }
+      }
+
+      span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        color: #6b7280;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: $subtitle_16;
+      }
+    }
+  }
+}
