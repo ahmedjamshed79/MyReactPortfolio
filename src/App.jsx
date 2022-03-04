@@ -12,7 +12,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
-  AOS.init({duration: 1000});
+  AOS.init({duration: 1000, once: true});
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">

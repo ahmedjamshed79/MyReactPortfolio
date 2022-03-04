@@ -62,9 +62,21 @@
       border: 1px solid $secondary;
       text-align: center;
       margin-top: 15px;
+      // position: relative;
+      animation: pulse 3s linear infinite;
 
       @include mobile {
         font-size: 1.6rem;
+      }
+      
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
       }
     }
 
