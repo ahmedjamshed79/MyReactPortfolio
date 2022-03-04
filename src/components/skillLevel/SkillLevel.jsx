@@ -58,7 +58,7 @@ const SKillLevel = () => {
             >
               <div className="tag"> {d.tag} </div>
             </div>
-            <span>80%</span>
+            <span>{d.percentage}</span>
           </div>
         ))}
       </div>

@@ -21,6 +21,10 @@
       position: relative;
       margin-bottom: 15px;
 
+      @include mobile {
+        height: 30px;
+      }
+
       .bar-fill {
         position: absolute;
         top: 0;
@@ -31,6 +35,10 @@
         display: flex;
         transition: 1.1s 0.2s width ease-in-out;
 
+        @include mobile {
+          width: 100px;
+        }
+
         .tag {
           width: 150px;
           display: flex;
@@ -40,6 +48,10 @@
           color: $primary;
           font-size: $button_14;
           font-weight: 500;
+
+          @include mobile {
+            width: 100px;
+          }
         }
       }
 
@@ -54,7 +66,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: $subtitle_16;
+        font-size: $button_14;
       }
     }
   }
