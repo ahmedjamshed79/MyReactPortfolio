@@ -21,7 +21,7 @@ function Skills() {
       title: "Front-End",
       des: "Coding is my passion. I love to spend my time and energy into building web apps",
       subtitle1: "Web Technologies",
-      det: "HTML5, CSS3, JavaScript, React.js, Gatsby.js, Scss, Bootstrap, Taliwind and more ",
+      det: "HTML5, CSS3, JavaScript, React.js, Node.js, Sass, Taliwind and more ",
       subtitle2: "Dev Tools I use",
       list: ["Macbook Pro", "VS Code", "Github", "Npm", "Kanban Boards", " "],
     },
@@ -38,6 +38,8 @@ function Skills() {
         "Apple Notes",
         "iCal",
         "Notion",
+        "Nice pen",
+        "A journal"
       ],
     },
   ];

@@ -36,6 +36,10 @@ const SKillLevel = () => {
       tag: "Figma",
       percentage: "80%",
     },
+    {
+      tag: "Github",
+      percentage: "90%",
+    },
   ];
 
   const [bar, setBar] = useState(false);
@@ -49,7 +53,7 @@ const SKillLevel = () => {
 
   return (
     <div className="skillLevel">
-      <div className="container" data-aos="fill" data-aos-id="fill-bar">
+      <div className="container" data-aos="fade-up" data-aos-id="fill-bar">
         {data.map((d) => (
           <div className="bar" key={d.tag}>
             <div
