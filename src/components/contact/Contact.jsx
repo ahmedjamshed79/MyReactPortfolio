@@ -58,11 +58,13 @@ function Contact() {
             placeholder="Email"
             name="user_email"
             onChange={inputChangeHandler}
+            data-aos="zoom-out"
           />
           <textarea
             placeholder="Message"
             name="message"
             onChange={inputChangeHandler}
+            data-aos="zoom-out"
           />
           <button type="submit" value="Send">
             Send
