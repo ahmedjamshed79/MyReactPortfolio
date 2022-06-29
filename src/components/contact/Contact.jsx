@@ -7,6 +7,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailIcon from "@material-ui/icons/Mail";
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Contact() {
   const [message, setMessage] = useState(false);
@@ -77,6 +79,20 @@ function Contact() {
       </a>
       <footer>
         <div className="link_icon_container">
+          <a
+            href="https://twitter.com/ahmedjamshed79"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TwitterIcon className="icons" />
+          </a>
+          <a
+            href="https://www.instagram.com/ahmedjamshed79/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <InstagramIcon className="icons" />
+          </a>
           <a
             href="https://github.com/ahmedjamshed79"
             target="_blank"
