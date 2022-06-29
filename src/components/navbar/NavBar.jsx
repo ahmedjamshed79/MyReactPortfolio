@@ -10,11 +10,18 @@ function NavBar({ menuOpen, setMenuOpen }) {
       </div>
 
       <div className="links">
-          <a href="#intro">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact me</a>
+        <a href="#intro">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact me</a>
+        <a
+          href="https://ahmedf.hashnode.dev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Blog
+        </a>
       </div>
 
       <div className="right">
